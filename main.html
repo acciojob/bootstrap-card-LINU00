@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sync5 Cards</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+<div class="container mt-4">
+  <!-- Card Deck -->
+  <div class="card-deck ">
+
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="card-header">
+        New Features
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Mobile and Tablet support</h5>
+        <p class="card-text">
+          With this new update you will be able to sync your work across a large number of platforms.
+        </p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card bg-danger text-white">
+      <div class="card-header">
+        Alert
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Node Dead</h5>
+        <p class="card-text">
+          Node 5 (east-us) is offline for the last 12 days.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- News Card -->
+  <div class="card mt-4">
+    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" 
+         class="card-img-top" alt="Underwater diver">
+    <div class="card-body">
+      <h5 class="card-title">President under Pressure</h5>
+      <p class="card-text">
+        The US president is under pressure to respond to a widespread cyber-attack linked to China.
+      </p>
+      <p class="card-text">
+        <small class="text-muted">Last updated 12 mins ago</small>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-
 </html>
